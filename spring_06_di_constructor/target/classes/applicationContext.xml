@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+    <bean id="bookDao" class="com.shentao.dao.impl.BookDaoImpl"/>
+
+    <!--
+    <bean id="bookService" class="com.shentao.service.impl.BookServiceImpl">-->
+        <!--构造器构造  -->
+
+        <!-- bookDao 指的是public BookServiceImpl(BookDao bookDao) -->
+    <!-- <constructor-arg name="bookDao" ref="bookDao"/>
+ </bean>-->
+
+    <!--自动注入  要写set-->
+    <bean id="bookService" class="com.shentao.service.impl.BookServiceImpl" autowire="byType"/>
+
+
+</beans>
