@@ -6,8 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="springboot_01_01_quickstart" />
         <module name="spring_06_di_constructor" />
+        <module name="springboot_04_junit" />
+        <module name="springboot_05_mybatis" />
+        <module name="springboot_01_01_quickstart" />
         <module name="spring_05_di_set" />
         <module name="spring_03_bean_instance" />
         <module name="spring_15_spring_mybatis" />
@@ -21,6 +23,8 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="springboot-helloworld" options="-parameters" />
       <module name="springboot_01_01_quickstart" options="-parameters" />
+      <module name="springboot_04_junit" options="-parameters" />
+      <module name="springboot_05_mybatis" options="-parameters" />
     </option>
   </component>
 </project>
