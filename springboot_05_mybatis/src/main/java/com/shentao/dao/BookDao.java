@@ -6,10 +6,10 @@ import org.springframework.stereotype.Repository;
 
 import java.awt.print.Book;
 
-@Repository
+
 @Mapper
 public interface BookDao {
 
     @Select("select * from employee where id = #{id}")
-    public Book geiById(Integer id);
+    public Book getById(Integer id);
 }
