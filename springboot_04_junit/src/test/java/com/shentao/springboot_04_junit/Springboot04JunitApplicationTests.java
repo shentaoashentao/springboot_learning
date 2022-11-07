@@ -1,4 +1,4 @@
-package com.example.springboot_04_junit;
+package com.shentao.springboot_04_junit;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
