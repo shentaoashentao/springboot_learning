@@ -26,7 +26,7 @@ public class BookController {
     //添加用Post
     @PostMapping
     public R save(@RequestBody Book book){
-        return new R (bookService.save(book));
+        return new R (true,bookService.save(book));
     }
 
 
